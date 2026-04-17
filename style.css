@@ -8,12 +8,21 @@ body {
 header {
     background: #1f2937;
     color: white;
-    padding: 40px;
     text-align: center;
+    padding: 40px;
+}
+
+header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 15px;
+    object-fit: cover;
+    border: 3px solid white;
 }
 
 .container {
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -24,6 +33,18 @@ section {
 h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: white;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
 }
 
 .projects {
@@ -44,9 +65,15 @@ h2 {
     border-radius: 8px;
 }
 
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 footer {
-    text-align: center;
-    padding: 20px;
     background: #1f2937;
     color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
